@@ -1,0 +1,154 @@
+@import "./mixinsandfunctions.scss";
+
+
+//fix form zoom mobile focus
+
+
+
+@media screen and (max-width: 767px) {
+  input, select, textarea {
+    font-size: 16px;
+  }
+}
+
+
+
+  input,
+textarea {
+  border: 1px solid grey;
+  outline: 0;
+  color:black;
+  padding: 10px 0px;
+  border-radius: 8px;
+  display: block;
+  width: 20rem;
+  margin-top: 1em;
+  font-family: "Merriweather", sans-serif;
+  resize: none;
+width: 100%;
+  @include media(desktop) {
+    width: 500px;
+  }
+}
+
+#input-submit {
+  color: white;
+//   background: #15412b;
+  background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
+
+  cursor: pointer;
+  width: 200px;
+}
+
+#input-submit:hover {
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  height: 126px;
+  color:black;
+}
+
+.btn-close{
+  background-color:#86b98b;
+  display: flex;
+  
+
+}
+.submit-btn{
+//     color: black;
+//   background-color:#86b98b;
+//   height: 3rem;
+//   width: 6rem;
+  background-color: #131f53;
+  color: white;
+  width: 130px;
+  height: 40px;
+  border-radius: 7px;
+
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+//   background-color: black;
+//   background-color: #86b98b;
+
+}
+
+
+  input,
+textarea {
+  border: 1px solid grey;
+  outline: 0;
+  padding: 10px 0px;
+  border-radius: 8px;
+  display: block;
+  width: 20rem;
+  margin-top: 1em;
+  font-family: "Merriweather", sans-serif;
+  resize: none;
+  // margin-bottom: 20px;
+
+  @include media(desktop) {
+    width: 500px;
+  }
+}
+
+#input-submit {
+  color: white;
+//   background: #15412b;
+  background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
+
+  cursor: pointer;
+  width: 200px;
+}
+
+#input-submit:hover {
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  height: 126px;
+  margin-bottom: 20px;
+}
+
+.btn-close{
+  background-color:#86b98b;
+  display: flex;
+  
+
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+//   background-color: black;
+//   background-color: #86b98b;
+
+}
+
+button {
+  color: white;
+  background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
+}
+
+.logo-1{
+  height:auto;
+  width: 100%;
+  border: 2px solid gray;
+  
+  @include media(tablet) {
+    width:400px;
+  }
+  
+ 
+}
