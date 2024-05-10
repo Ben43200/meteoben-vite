@@ -135,7 +135,7 @@ function ContactForm() {
   return (
     <div className="form-container">
     <form onSubmit={handleSubmit}>
-      <label htmlFor="email">Contactez moi</label>
+      <label htmlFor="email">Formulaire</label>
       <input
         type="text"
         name="name"
