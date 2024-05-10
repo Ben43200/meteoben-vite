@@ -15,7 +15,6 @@ function App() {
       <main>
       <h2>Le site sera bientôt de retour, en attendant contactez-moi:</h2>
 
-      <h3>Veillez à bien attendre la confirmation de l'envoi du mail avant de quitter la page, le serveur peut être un peu long</h3>
    
     
      

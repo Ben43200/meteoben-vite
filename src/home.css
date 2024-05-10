@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Caramel&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  /* remember to define focus styles! */
+  /* tables still need 'cellspacing="0"' in the markup */
+}
+* html,
+* body,
+* div,
+* span,
+* applet,
+* object,
+* iframe,
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* h6,
+* p,
+* blockquote,
+* pre,
+* a,
+* abbr,
+* acronym,
+* address,
+* big,
+* cite,
+* code,
+* del,
+* dfn,
+* em,
+* font,
+* img,
+* ins,
+* kbd,
+* q,
+* s,
+* samp,
+* small,
+* strike,
+* strong,
+* sub,
+* sup,
+* tt,
+* var,
+* dl,
+* dt,
+* dd,
+* ol,
+* ul,
+* li,
+* fieldset,
+* form,
+* label,
+* legend,
+* table,
+* caption,
+* tbody,
+* tfoot,
+* thead,
+* tr,
+* th,
+* td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+* :focus {
+  outline: 0;
+}
+* body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+* ol,
+* ul {
+  list-style: none;
+}
+* table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+* caption,
+* th,
+* td {
+  text-align: left;
+  font-weight: normal;
+}
+* blockquote:before,
+* blockquote:after,
+* q:before,
+* q:after {
+  content: "";
+}
+* blockquote,
+* q {
+  quotes: "" "";
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.bold-text {
+  font-weight: 800;
+}
+
+.box-info-bordered-title {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 0.3rem;
+}
+
+h2, h3 {
+  font-weight: 700;
+}
+
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #242424;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  grid-template-areas: " header " "main " "footer ";
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  text-align: justify;
+  margin: 0;
+  padding: 0px 3px;
+}
+@media screen and (min-width: 1025px) {
+  #root {
+    width: 100vw;
+    grid-template-areas: " . header ." "  . main .  " "footer footer footer ";
+    grid-template-columns: auto 1240px auto;
+    padding: 0;
+  }
+}
+
+#root > header {
+  grid-area: header;
+  height: auto;
+}
+
+#root > main {
+  grid-area: main;
+  padding: 20px 2px;
+  display: grid;
+  justify-items: center;
+}
+
+#root > footer {
+  grid-area: footer;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+footer > h1 {
+  align-content: center;
+  font-size: 1rem;
+}
+
+header {
+  display: grid;
+  justify-items: center;
+}/*# sourceMappingURL=home.css.map */
