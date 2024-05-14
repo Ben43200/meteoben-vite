@@ -113,8 +113,8 @@ button {
 }
 
 .logo-1 {
-  height: 350px;
-  width: 400px;
+  height: 300px;
+  width: 100%;
   border: 2px solid gray;
 }
 @media screen and (min-width: 768px) {
@@ -122,9 +122,13 @@ button {
     width: 400px;
   }
 }
+@media (min-width: 400px) {
+  .logo-1 {
+    width: 370px;
+  }
+}
 @media (max-width: 390px) {
   .logo-1 {
     width: 100%;
-    height: auto;
   }
 }/*# sourceMappingURL=contact.css.map */
