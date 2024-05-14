@@ -142,9 +142,9 @@ button {
 }
 
 .logo-1{
-  height:300px;
+  height:350px;
   width: 100%;
-  border: 2px solid gray;
+  // border: 2px solid black;
   
   @include media(tablet) {
     width:400px;
