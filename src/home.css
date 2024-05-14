@@ -149,7 +149,6 @@ h2, h3 {
   #root {
     width: 100vw;
     grid-template-areas: " . header ." "  . main .  " "footer footer footer ";
-    grid-template-columns: auto 1240px auto;
     padding: 0;
   }
 }
