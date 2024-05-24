@@ -3,6 +3,7 @@
 import './home.scss'
 import ContactForm from './ContactForm.jsx'
 import logo from "./assets/logo-png.png"
+import Contact from './Contact.jsx'
 
 function App() {
 
@@ -14,12 +15,7 @@ function App() {
       </header>
       <main>
       <h2>Le site sera bientôt de retour, en attendant contactez-moi:</h2>
-
-   
-    
-     
-      
-      <ContactForm />
+      <Contact />
     </main>
     <footer>
       <h1>©Meteoben</h1>
