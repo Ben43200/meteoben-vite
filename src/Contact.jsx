@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import axios from 'axios';
 
 function Contact() {
@@ -22,15 +22,23 @@ function Contact() {
         params.append('message', state.message);
 
         axios.post('https://meteoben.com/contact.php', params)
-            .then(response => {
-                console.log(response);
-                setResponseMessage("Votre message a été envoyé avec succès !");
-            })
-            .catch(error => {
-                console.log(error);
-                setResponseMessage("Une erreur s'est produite lors de l'envoi de votre message.");
+        .then(response => {
+            console.log(response);
+            setResponseMessage("Votre message a été envoyé avec succès !");
+            // Reset state here
+            setState({
+                firstName: "",
+                lastName: "",
+                email: "",
+                phone: "",
+                message: ""
             });
-    };
+        })
+        .catch(error => {
+            console.log(error);
+            setResponseMessage("Une erreur s'est produite lors de l'envoi de votre message.");
+        });
+};
 
     const onInputChange = event => {
         const { name, value } = event.target;
