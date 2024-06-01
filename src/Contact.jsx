@@ -20,10 +20,9 @@ function Contact() {
         params.append('email', state.email);
         params.append('phone', state.phone);
         params.append('message', state.message);
-
+    
         axios.post('https://meteoben.com/contact.php', params)
-        .then(response => {
-            console.log(response);
+        .then(() => {
             setResponseMessage("Votre message a été envoyé avec succès !");
             // Reset state here
             setState({
@@ -34,12 +33,10 @@ function Contact() {
                 message: ""
             });
         })
-        .catch(error => {
-            console.log(error);
+        .catch(() => {
             setResponseMessage("Une erreur s'est produite lors de l'envoi de votre message.");
         });
-};
-
+    };
     const onInputChange = event => {
         const { name, value } = event.target;
 
