@@ -68,7 +68,7 @@ const NavBar = () => {
           </div>
         </nav>
         <div className="title-container">
-          <h1 className="title">Meteoben, Développeur Web</h1>
+          <p className="title">Meteoben, Développeur Web</p>
         </div>
       </header>
     );
