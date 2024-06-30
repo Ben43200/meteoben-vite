@@ -32,10 +32,12 @@ const NavBar = () => {
   
     const menuItemsData = [
       { title: "Accueil", url: "" },
-      { title: "La micronutrition", url: "micronutrition" },
-      { title: "Puzzle de ma vie", url: "puzzle" },
+    //   { title: "La micronutrition", url: "micronutrition" },
+    //   { title: "Puzzle de ma vie", url: "puzzle" },
       { title: "Prestations", url: "prestations" },
-      { title: "Blog", url: "blog" },
+    //   { title: "Blog", url: "blog" },
+      { title: "Réalisations", url: "realisation" },
+
       { title: "Contact", url: "contact" },
     ];
     // const title = "Anne-Christine BRUNEL,<br/> diététicienne et micronutritionniste";
