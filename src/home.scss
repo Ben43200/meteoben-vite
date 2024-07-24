@@ -56,7 +56,8 @@ h2, h3{
   // row-gap: 20px;
   text-align: justify;
   margin: 0;
-  padding: 0px 3px;
+  // suppression paddind
+  // padding: 0px 3px;
 
   @include media(desktop) {
     // body {

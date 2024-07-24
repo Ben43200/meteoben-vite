@@ -105,6 +105,9 @@ background: #408a8b;
 
 .nav-elements ul li:not(:last-child) {
   margin-right: 60px;
+  @media (max-width: 858px) {
+    margin-right: 0px;
+  }
 }
 
 .nav-elements ul a {
@@ -161,6 +164,8 @@ background: #408a8b;
     cursor: pointer;
     // color: white;
     color: black;
+    //pour passer par dessus la header au déploiement du menu
+    z-index: 3000;
   }
 
   .nav-elements {
@@ -170,8 +175,12 @@ background: #408a8b;
     top: 0px;
     
 background: #408a8b;
-    height: 100vh;
+    // height: 100vh;
+    //ancien code pour le menu qui vient de la gauche
     width: 0;
+    // nouveau code pour le menu qui vient du haut
+    width: 100%;
+
 
     // height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
@@ -182,7 +191,13 @@ background: #408a8b;
   }
 
   .nav-elements.active {
-    width: 200px;
+    //ancien code
+    // width: 200px;
+    //nouveau code
+    //essai menu qui vient du haut
+    // width:100%;
+    height:300px;
+    // fin essai menu qui vient du haut
     opacity: 0.95;
     position: fixed;
     z-index: 200;
@@ -193,15 +208,23 @@ background: #408a8b;
     display: flex;
     flex-direction: column;
     padding-left: 5px;
-    width: 200px;
+    //suppression ancien code
+    // width: 200px;
+
+    //fix nouveau code
+    width: 100%;
+    align-items: center;
 
     // padding-top: 70px;
   }
   .nav-elements > ul:first-child {
+    //ancien code pour le menu qui vient de la gauche
     padding-top: 70px;
+    padding-top: 100px;
+
   }
   .nav-elements ul li {
-    margin-right: unset;
+    // margin-right: unset;
     margin-top: 22px;
   }
 }
@@ -268,9 +291,19 @@ h1 {
   width: 100%;
   color: white;
   // border-radius: 10px;
-  border-radius: 0px 0px 10px 10px;
+
+  //suppression ancien code border radius
+  // border-radius: 0px 0px 10px 10px;
+
+
+
   // position: fixed;
-  z-index: 98;
+  //ancien code menu qui vient de la gauche
+
+  // z-index: 98;
+
+  //nouveau code menu qui vient du haut
+z-index: 4000;
   @include media(desktop) {
     // width: 1240px;
   }

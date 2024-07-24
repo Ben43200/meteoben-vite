@@ -1,7 +1,7 @@
 
 // import './App.css'
 import './home.scss'
-import logo from "./assets/logo-png.png"
+// import logo from "./assets/logo-png.png"
 import Contact from './Contact.jsx'
 
 function App() {
