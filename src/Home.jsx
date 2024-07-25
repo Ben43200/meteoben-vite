@@ -13,7 +13,7 @@ function App() {
       {/* <h1>Meteoben, Développeur Web</h1> */}
       {/* </header> */}
       <main>
-      <h2>Le site sera bientôt de retour, en attendant contactez-moi:</h2>
+      <h2 className="info-title">Le site sera bientôt de retour, en attendant contactez-moi:</h2>
       <Contact />
     </main>
     <footer>
