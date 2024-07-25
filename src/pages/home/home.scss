@@ -1,4 +1,4 @@
-@import "./mixinsandfunctions.scss";
+@import "../../css/mixinsandfunctions.scss";
 // @import "./variables.scss";
 // @import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
 // @import url('https://fonts.googleapis.com/css2?family=Caramel&family=Philosopher&display=swap');
@@ -50,7 +50,7 @@ h2, h3{
   -moz-osx-font-smoothing: grayscale;
   display: grid;
   grid-template-areas: " header " "main " "footer ";
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 7rem 1fr auto;
   // height: 100vh;
   min-height: 100vh;
   // row-gap: 20px;
@@ -112,6 +112,6 @@ header{
 display: grid;
 justify-items: center;
 }
-.info-title{
-  padding-top: 110px;
-}
+// .info-title{
+//   padding-top: 110px;
+// }

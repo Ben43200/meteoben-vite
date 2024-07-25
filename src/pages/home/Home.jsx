@@ -2,7 +2,7 @@
 // import './App.css'
 import './home.scss'
 // import logo from "./assets/logo-png.png"
-import Contact from './Contact.jsx'
+import Contact from '../../components/contact/Contact.jsx'
 
 function App() {
 

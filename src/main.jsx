@@ -28,11 +28,11 @@ import ReactDOM from "react-dom/client";
 // import Error from "./pages/error/Error.jsx";
 // import Contact from "./pages/contact/Contact.jsx";
 // import Puzzle from "./pages/puzzle/Puzzle.jsx";
-// import Prestations from "./pages/prestations/Prestations.jsx";
+import Prestations from "./pages/prestations/Prestations.jsx";
 // import MentionsLegales from "./pages/mentions/MentionsLegales.jsx";
 // import ScrollToTop from "./components/scrolltotop/ScrollToTop.jsx";
-import Navbar from "./NavBar.jsx";
-import Home from "./Home.jsx";
+import Navbar from "./components/navbar/NavBar.jsx";
+import Home from "./pages/home/Home.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // window.addEventListener('resize', () => {
@@ -56,9 +56,9 @@ root.render(
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/blogitem/:id" element={<BlogItem />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/puzzle" element={<Puzzle />} />
+      <Route path="/puzzle" element={<Puzzle />} />*/}
       <Route path="/prestations" element={<Prestations />} />
-      <Route path="/mentions-legales" element={<MentionsLegales />} /> 
+       {/*<Route path="/mentions-legales" element={<MentionsLegales />} /> 
       <Route path="*" element={<Error />} /> */}
 
 

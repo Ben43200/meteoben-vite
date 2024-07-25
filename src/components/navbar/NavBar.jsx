@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 // import { IMAGES } from "../../assets/Images.jsx";
 import "./navbar.scss"
-import logo from "./assets/logo-png.png"
+import logo from "../../assets/logo-png.png";
 
 
 const NavBar = () => {

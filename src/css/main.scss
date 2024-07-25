@@ -28,10 +28,10 @@
     display: grid;
     grid-template-areas: " header " "main " "footer ";
   ;
-    grid-template-rows: 160px 1fr auto;
+    // grid-template-rows: 160px 1fr auto;
     // min-height: 100vh;
     // text-align: justify;
-    min-height: calc(100 * var(--vh));
+    // min-height: calc(100 * var(--vh));
     
     margin: 0;
     // @include media(desktop) {
