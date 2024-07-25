@@ -53,8 +53,8 @@ h2, h3{
   display: grid;
   grid-template-areas: " header " "main " "footer ";
   grid-template-rows: 7rem 1fr auto;
-  // height: 100vh;
-  min-height: 100vh;
+  height: 100vh;
+  // min-height: 100vh;
   // row-gap: 20px;
   text-align: justify;
   margin: 0;
