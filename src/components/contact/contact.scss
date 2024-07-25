@@ -22,7 +22,7 @@ textarea {
   border-radius: 8px;
   display: block;
   width: 20rem;
-  margin-top: 1em;
+  // margin-top: 1em;
   font-family: "Merriweather", sans-serif;
   resize: none;
 width: 100%;
@@ -73,7 +73,7 @@ textarea {
 form {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
+  justify-content: space-between ;
   align-items: center;
 //   background-color: black;
 //   background-color: #86b98b;
@@ -89,7 +89,7 @@ textarea {
   border-radius: 8px;
   display: block;
   width: 20rem;
-  margin-top: 1em;
+  // margin-top: 1em;
   font-family: "Merriweather", sans-serif;
   resize: none;
   // margin-bottom: 20px;
