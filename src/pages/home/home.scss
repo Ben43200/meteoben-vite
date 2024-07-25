@@ -15,7 +15,9 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
-
+// :root {
+//   --vh: 1vh;
+// }
 // h2{
 //   margin-bottom:15px;
 // }
@@ -51,13 +53,14 @@ h2, h3{
   display: grid;
   grid-template-areas: " header " "main " "footer ";
   grid-template-rows: 7rem 1fr auto;
-  // height: 100vh;
-  min-height: 100vh;
+  height: 100vh;
+  // min-height: 100vh;
   // row-gap: 20px;
   text-align: justify;
   margin: 0;
   // suppression paddind
   // padding: 0px 3px;
+   min-height: calc(100 * var(--vh));
 
   @include media(desktop) {
     // body {
@@ -81,7 +84,7 @@ h2, h3{
 }
 #root > main {
   grid-area: main;
-  padding:20px 2px;
+  // padding:20px 2px;
   display: grid;
   justify-items: center;
 }

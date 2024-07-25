@@ -92,6 +92,7 @@ max-width: 100vw;
   }
   #root > main {
     grid-area: main;
+    
     padding:20px 8px;
     word-spacing: normal;
     @include media (tablet){
