@@ -87,6 +87,7 @@ h2, h3{
   // padding:20px 2px;
   display: grid;
   justify-items: center;
+  height: calc(100vh - 11rem);
 }
 
 #root > footer {
