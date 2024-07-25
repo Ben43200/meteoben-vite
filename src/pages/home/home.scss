@@ -53,14 +53,15 @@ h2, h3{
   display: grid;
   grid-template-areas: " header " "main " "footer ";
   grid-template-rows: auto 1fr auto;
-  height: 100vh;
+  // height: 100vh;
   // min-height: 100vh;
   // row-gap: 20px;
   text-align: justify;
   margin: 0;
   // suppression paddind
   // padding: 0px 3px;
-   min-height: calc(100 * var(--vh));
+  //  min-height: calc(100 * var(--vh));
+   min-height: calc(var(--vh, 1vh) * 100);
 
   @include media(desktop) {
     // body {
