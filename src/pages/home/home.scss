@@ -84,8 +84,12 @@ h2, h3{
 }
 #root > main {
   grid-area: main;
-  // padding:20px 2px;
+  padding:20px 2px;
   display: grid;
+  // display: flex;
+  overflow: auto; /* Ajouté pour gérer le débordement */
+
+
   justify-items: center;
   height: calc(100vh - 11rem);
 }
