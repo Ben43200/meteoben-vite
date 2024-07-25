@@ -19,7 +19,7 @@ import ReactDOM from "react-dom/client";
 // import App from "./App.jsx";
 // import Home from "./pages/home/Home.jsx";
 // import Navbar from "./components/navbar/Navbar.jsx";
-// import Footer from "./components/footer/Footer.jsx";
+import Footer from "./components/footer/Footer.jsx";
 // import './css/main.scss'
 // import "./css/mixinsandfunctions.scss";
 // import Micronutrition from "./pages/micronutrinition/Micronutrition.jsx";
@@ -74,7 +74,7 @@ root.render(
   
 
     </Routes>
-    {/* <Footer /> */}
+    <Footer />
 
   {/* </Router> */}
   </BrowserRouter>
