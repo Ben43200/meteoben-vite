@@ -76,7 +76,8 @@ h2, h3{
 
 #root > header {
   grid-area: header;
-  height:auto;
+  // height:auto;
+  height:7rem;
 }
 #root > main {
   grid-area: main;

@@ -46,7 +46,8 @@ width:100%;
 }
 
 .navbar {
-  height: 70px;
+  //suppression de la hauteur pour application sur header
+  // height: 70px;
 
 background: #408a8b;
 // background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
@@ -283,8 +284,9 @@ h1 {
   }
 }
 .title-container {
-  height: 5rem;
-  height: 3rem;
+  // suppression taille hauteur title-container pour application sur header
+  // height: 5rem;
+  // height: 3rem;
   // background-color: #131f53;
   background-color: white;
   background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
