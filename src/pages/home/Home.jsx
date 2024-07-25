@@ -16,9 +16,9 @@ function App() {
       <h2 className="info-title">Le site sera bientôt de retour, en attendant contactez-moi:</h2>
       <Contact />
     </main>
-    <footer>
+    {/* <footer>
       <h1>©Meteoben</h1>
-    </footer> 
+    </footer>  */}
     </>
   )
 }
