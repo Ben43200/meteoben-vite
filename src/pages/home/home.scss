@@ -93,6 +93,7 @@ h2, h3{
 height: auto;
   justify-items: center;
   height: calc(100vh - 11rem);
+  overflow: auto;
 }
 
 #root > footer {
